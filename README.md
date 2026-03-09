@@ -1,20 +1,48 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sana Samad | Frontend Developer Portfolio
 
-# Run and deploy your AI Studio app
+Modern, responsive, and highly interactive portfolio built to showcase my projects, skills, and experience.
 
-This contains everything you need to run your app locally.
+## Tech Stack
+- **React.js**: Component-based UI architecture
+- **Tailwind CSS**: Utility-first styling for a sleek, modern design
+- **Firebase**: Backend services and hosting
+- **Framer Motion**: Smooth animations and transitions
 
-View your app in AI Studio: https://ai.studio/apps/d0c9b522-52d2-4ae0-9626-e5e54830d984
+## Features
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
+- **Interactive UI**: Engaging animations, hover states, and smooth scrolling.
+- **Dynamic Projects Section**: Showcasing my best work, including:
+  - **CV-MASTER**: A comprehensive resume builder application.
+  - **Luxury Sushi**: A premium restaurant website with an elegant UI.
+- **Contact Form**: Direct messaging capabilities.
+- **Downloadable Resume**: Easy access to my professional CV.
 
-## Run Locally
+## Installation
 
-**Prerequisites:**  Node.js
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sana-Khan30/portfolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
+## Usage
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Start the development server:
+```bash
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
+
+## Credits
+Designed & Developed by Sana Samad.

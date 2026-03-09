@@ -20,7 +20,7 @@ function Home() {
         <Contact />
       </main>
       <footer className="py-8 text-center text-slate-600 text-sm border-t border-white/5 bg-[#0A192F]">
-        <p>© {new Date().getFullYear()} Sana Samad. All rights reserved.</p>
+        <p>Designed & Developed by Sana Samad</p>
       </footer>
     </>
   );
