@@ -38,7 +38,7 @@ const projects = [
     liveUrl: "https://drivepro-x.netlify.app/",
     codeUrl: "#", // Placeholder
     category: "HTML/CSS",
-    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Health Website",
@@ -47,7 +47,7 @@ const projects = [
     liveUrl: "https://health-website-from-tailwind.netlify.app/",
     codeUrl: "#", // Placeholder
     category: "HTML/CSS",
-    image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Eclat-Beauty",
@@ -56,7 +56,7 @@ const projects = [
     liveUrl: "https://eclat-beauty.vercel.app/",
     codeUrl: "#", // Placeholder
     category: "React",
-    image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Coffee Shop Landing Page",
@@ -166,7 +166,7 @@ export default function Projects() {
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-80 group-hover:opacity-100 grayscale group-hover:grayscale-0"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0A192F] via-transparent to-transparent opacity-80" />
               </div>

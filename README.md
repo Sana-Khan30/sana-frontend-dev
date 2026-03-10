@@ -1,48 +1,58 @@
 # Sana Samad | Frontend Developer Portfolio
 
-Modern, responsive, and highly interactive portfolio built to showcase my projects, skills, and experience.
+A modern, responsive, and highly interactive portfolio built to showcase my projects, skills, and experience as a Frontend Developer.
 
-## Tech Stack
-- **React.js**: Component-based UI architecture
-- **Tailwind CSS**: Utility-first styling for a sleek, modern design
-- **Firebase**: Backend services and hosting
-- **Framer Motion**: Smooth animations and transitions
+## 🚀 Tech Stack
 
-## Features
-- **Responsive Design**: Fully optimized for mobile, tablet, and desktop.
-- **Interactive UI**: Engaging animations, hover states, and smooth scrolling.
-- **Dynamic Projects Section**: Showcasing my best work, including:
-  - **CV-MASTER**: A comprehensive resume builder application.
-  - **Luxury Sushi**: A premium restaurant website with an elegant UI.
-- **Contact Form**: Direct messaging capabilities.
-- **Downloadable Resume**: Easy access to my professional CV.
+- **Frontend:** React.js, Tailwind CSS, Framer Motion
+- **Backend & Hosting:** Firebase
+- **Tools:** Vite, Git, npm
 
-## Installation
+## ✨ Featured Projects
 
-1. Clone the repository:
+### 📄 CV-MASTER
+A comprehensive and intuitive resume builder application that allows users to create, customize, and download professional resumes. Features real-time preview and multiple template options.
+
+### 🏎️ DrivePro-X
+A sleek, interactive showcase of premium electric and luxury cars. Built with a focus on high-performance UI, smooth animations, and 3D hover effects to deliver a premium user experience.
+
+### 🍣 Luxury Sushi
+A premium restaurant website with an elegant, mouth-watering UI. Features smooth scrolling, a dynamic menu, and a responsive layout tailored for both desktop and mobile users.
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/Sana-Khan30/portfolio.git
    ```
-2. Navigate to the project directory:
+
+2. **Navigate to the project directory:**
    ```bash
    cd portfolio
    ```
-3. Install dependencies:
+
+3. **Install dependencies:**
    ```bash
    npm install
    ```
 
-## Usage
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-Start the development server:
-```bash
-npm run dev
-```
+5. **Build for production:**
+   ```bash
+   npm run build
+   ```
 
-Build for production:
-```bash
-npm run build
-```
+## 📬 Contact
 
-## Credits
-Designed & Developed by Sana Samad.
+Feel free to reach out for collaborations or opportunities!
+
+- **Email:** sanasamad592@gmail.com
+- **LinkedIn:** [Sana Samad](#)
+- **GitHub:** [Sana-Khan30](https://github.com/Sana-Khan30)
+
+---
+*Designed & Developed by Sana Samad.*
