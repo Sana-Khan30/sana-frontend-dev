@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import Section from "./ui/Section";
 import { ArrowRight, FileText, Terminal, Code2 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -45,13 +46,13 @@ export default function Hero() {
               View My Work
               <ArrowRight className="w-4 h-4" />
             </a>
-            <a
-              href="/resume"
+            <Link
+              to="/resume"
               className="px-8 py-4 rounded-full glass-panel text-white font-medium hover:bg-white/10 transition-all flex items-center gap-2"
             >
               <FileText className="w-4 h-4" />
               View Resume
-            </a>
+            </Link>
           </div>
         </motion.div>
 

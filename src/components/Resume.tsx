@@ -1,14 +1,22 @@
-import { motion } from "motion/react";
 import { Mail, Phone, MapPin, Github, Linkedin, Globe } from "lucide-react";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Resume() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="min-h-screen bg-[#0A192F] py-20 px-4 md:px-8 atmosphere">
+    <div className="min-h-screen bg-[#0A192F] py-20 px-4 md:px-8 relative overflow-hidden">
+      {/* Background Glows */}
+      <div className="absolute inset-0 pointer-events-none atmosphere" />
+
       {/* Controls */}
       <div className="max-w-4xl mx-auto mb-8 flex items-center relative z-10">
-        <a href="/" className="text-[#64FFDA] hover:text-white flex items-center gap-2 font-medium transition-colors uppercase tracking-wider text-sm">
+        <Link to="/" className="text-[#64FFDA] hover:text-white flex items-center gap-2 font-medium transition-colors uppercase tracking-wider text-sm">
           ← Back to Portfolio
-        </a>
+        </Link>
       </div>
 
       {/* Resume Paper */}

@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import Section from "./ui/Section";
 import { Mail, MapPin, Github, Linkedin, Phone, Send, Loader2 } from "lucide-react";
-import { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
